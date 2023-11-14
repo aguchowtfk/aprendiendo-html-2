@@ -1,0 +1,19 @@
+h1 {
+    color: chocolate;
+}
+hr {
+    color: crimson;
+}
+ h3{
+    color: darkgoldenrod;
+}
+.ep {
+    color: blue;
+}
+img{
+    max-width: 300px;
+    height: auto;
+}
+figcaption{
+    text-align: center;
+}

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>aprendiendo HTML</title>
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
     <h1>APRENDIENDO HTML</h1>
@@ -19,7 +20,7 @@
     <blockquote>Sólo se que no se nada </blockquote>
     <cite>Sócrates</cite>
     <hr>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam vero voluptas illo voluptates officia harum eum deserunt asperiores ipsam?<br> Explicabo cumque vel corrupti fugit architecto reprehenderit atque possimus tenetur deserunt.</p>
+    <p class="ep">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam vero voluptas illo voluptates officia harum eum deserunt asperiores ipsam?<br> Explicabo cumque vel corrupti fugit architecto reprehenderit atque possimus tenetur deserunt.</p>
     <hr>
     <pre>
         <p>
@@ -46,16 +47,46 @@
         </code>
     </pre>
     <hr>
-    <h2>Etiquetas semántica estructurales</h2>
-    <div>DIV: Es una etiqueta contenedora que no tiene semántica</div>
-    <header>HEADER:Cabecera de un sitio web o una sección</header>
-    <main>MAIN:define la sección principal del documento, solo puede existir una por documento</main>
-    <footer>FOOTER: pié de pagina de un sitio web o una sección</footer>
+    <h2 style="background-color: blueviolet;"> Etiquetas semántica estructurales</h2>
+    <div style="background-color: blue;">DIV: Es una etiqueta contenedora que no tiene semántica</div>
+    <header style="background-color:violet;">HEADER:Cabecera de un sitio web o una sección</header>
+    <main style="background-color:violet;"> MAIN:define la sección principal del documento, solo puede existir una por documento</main>
+    <footer style="background-color:violet;"></footer> FOOTER: pié de pagina de un sitio web o una sección</footer>
     <nav>NAV: representa un menu de navegación</nav>
     <article>ARTICLE: representa una sección de autocontenido (que por si sola se aplica)</article>
     <aside>ASIDE: representa contenido complementario o secundario</aside>
     <section>SECTION: representa una seccion  de contenido generico</section>
     <address>ADDRESS: representa una direccion física</address>
     <hr>
+    <h2>Etiqueta de bloque vs Etiqueta de línea</h2>
+    <div style="background-color: blueviolet;">La etiqueta de bloque por excelencia es la DIV</div>
+    <span style="background-color: blue;"> La etiqueta de línea por excelencia es la SPAN </span> 
+    <span>Hola, soy otra SPAN</span>
+    <hr>
+    <h2>gif</h2>
+    <img src="imagenes/gif 1.gif" alt="silvia drifteando"> <figcaption>NISSAN SILVIA</figcaption>
+    <img src="imagenes/imagen1.avif" alt="estrella feliz"> <figcaption>ESTRELLA SONRIENTE</figcaption>
+    <img src="imagenes/imagen2.webp"> <figcaption>BICICLETA, ADORNO EXTERIOR</figcaption>
+    <hr>
+    <h2>ESTACIONES DEL AÑO</h2>
+    <ol>
+        <li>Priavera</li>
+        <li>Verano</li>
+        <li>Otoño</li>
+        <li>Invierno</li>
+    </ol>
+    <ol start="5">
+        <li>Primavera</li>
+        <li>Verano</li>
+        <li>Otoño</li>
+        <li>Invierno</li>
+    </ol>
+    <a href="index2.html">ir a index2</a>
+    
+
+    <script>
+        console.log("Hola estamos aprendiendo HTML");
+    </script>
+    <script src="JS/código.js"></script>
 </body>
 </html>
